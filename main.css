@@ -1,0 +1,58 @@
+/* base style*/
+
+.clock-display {
+    padding-left: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', sans-serif;
+    color: #222222;
+}
+
+.button-rayout {
+    padding-top: 30px;
+}
+
+div > button {
+    font-weight: bold;
+    background-color: #c0c0c0;
+    height: 40px;
+    width: 80px;
+}
+
+/*button opacity*/
+
+.start_light {
+    opacity: 1;
+}
+
+.start_light:hover {
+    opacity: 0.7;
+}
+
+.add_start_dark {
+    opacity: 0.3;
+}
+
+.stop_dark {
+    opacity: 0.3;
+}
+
+.add_stop_light {
+    opacity: 1;
+}
+
+.add_stop_light:hover {
+    opacity: 0.7;
+}
+
+.reset_dark {
+    opacity: 0.3;
+}
+
+.add_reset_light {
+    opacity: 1;
+}
+
+.add_reset_light:hover {
+    opacity: 0.7;
+}
